@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html {
+  @apply bg-gray-100 text-gray-900; /* 亮色模式默認樣式 */
+}
+
+html.dark {
+  @apply bg-gray-900 text-gray-100; /* 暗色模式樣式 */
+}
