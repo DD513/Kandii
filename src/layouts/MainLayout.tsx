@@ -11,9 +11,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
     <div className="flex flex-col min-h-screen">
       <Navbar />
 
-      <main className="flex-1 bg-pink-50 dark:bg-gray-900">
-        {children}
-      </main>
+      <main className="flex-1 bg-pink-50 dark:bg-gray-100">{children}</main>
     </div>
   );
 }
