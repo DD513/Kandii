@@ -7,3 +7,14 @@ html {
 html.dark {
   @apply bg-gray-900 text-gray-100; /* 暗色模式樣式 */
 }
+
+@theme {
+  --color-primary-red: #e54b5d;
+  --color-primary-blue: #274884;
+  --color-primary-yellow: #f5d84b;
+  --color-primary-gray: #ece7e6;
+  --color-primary-brand: #64c5de;
+  --color-primary-footer: #ecf4f7;
+  --color-background: #ffffff;
+  --color-font: #000000;
+}
